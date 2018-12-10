@@ -2,19 +2,15 @@
 * login: huxxx990
 * date: 10/05/18
 
-1.
-Pak H Tai, readme
-Hanyu Hu, warmup, code in main.c, readme, makefile
-
-2.
-Introduction
-make4061 is our implementation of gnu make. Our program will take a standard
+1.__
+Introduction__
+make4061 is our implementation of gnu make. My program will take a standard
 "Makefile" as an input or user define file name.
 By default, make4061 will search its directory to look for a "Makefile",
 and it will perform like the gnu make. Our make4061 will recursively resolve
 make target and its dependency / dependencies.
 
-We implement our program with the following method:
+I implemented My program with the following method:__
 1. a helper function called build_run_tree and it takes three arguments,
 char* target_name, target_t targets[], int nTargetCount.
 2. build_run_tree will check for if the given TargetName is a build target (target_id)
